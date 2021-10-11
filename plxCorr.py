@@ -82,7 +82,7 @@ def readFiles():
     files = []
 
     for pp in Path(Path.cwd(), 'input/').iterdir():
-        if not pp.name.endswith(".md"):
+        if not pp.name.endswith(".md") and "README" not in pp.name:
             if pp.is_file():
                 files += [pp]
             else:
