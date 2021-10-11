@@ -19,6 +19,7 @@ Outside these ranges, the zero-point obtained is an extrapolation.
 The code assumes that the data in the input file comes from Vizier, hence the required column names in the input data file are: `Plx, e_Plx, Gmag, nueff, pscol, ELAT, Solved`.
 
 
+TODO: see about incorporating the correction found in [An estimation of the Gaia EDR3 parallax bias from stellar clusters and Magellanic Clouds data, Apellaniz (2021)][https://api.semanticscholar.org/CorpusID:238259369]
 
 --------------------------------------------------------------
 Source: https://gitlab.com/icc-ub/public/gaiadr3_zeropoint
