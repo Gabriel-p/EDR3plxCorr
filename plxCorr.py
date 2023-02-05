@@ -49,7 +49,7 @@ def main():
 
         # Save output file with the corrected parallax values
         out_path = Path(Path.cwd(), 'output', file.name)
-        ascii.write(data, out_path, overwrite=True)
+        ascii.write(data, out_path, overwrite=True, format='csv')
 
         out_path = Path(
             Path.cwd(), 'output', file.name.replace('dat', 'png'))
